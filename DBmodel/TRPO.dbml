@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="trpo" Class="TRPODataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\trpo.mdf;Integrated Security=True;Connect Timeout=30;User Instance=True" SettingsObjectName="DBmodel.Properties.Settings" SettingsPropertyName="trpoConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.capasitors" Member="capasitors">
+    <Type Name="capasitor">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="resistance" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="max_freq" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="max_temp" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="price" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.resistors" Member="resistors">
+    <Type Name="resistor">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="resistance" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="max_voltage" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="max_temp" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="price" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.coils" Member="coils">
+    <Type Name="coil">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="industance" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="max_freq" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="max_temp" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="price" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.elements" Member="elements">
+    <Type Name="element">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="element" Member="element1" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.scheme1" Member="scheme1s">
+    <Type Name="scheme1">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="id_elem" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="count" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.scheme3" Member="scheme3s">
+    <Type Name="scheme3">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="id_elem" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="count" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.scheme2" Member="scheme2s">
+    <Type Name="scheme2">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="id_elem" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="count" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

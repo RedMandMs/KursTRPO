@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="TRPO">
+  <DataContextMoniker Name="/TRPODataContext" />
+  <nestedChildShapes>
+    <classShape Id="486a9751-d864-4ee4-80b1-cefa16799d06" absoluteBounds="1.125, 0.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/TRPODataContext/capasitor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="80dd2da0-93f8-48cc-a2a4-b4e02b0a73c5" absoluteBounds="1.1400000000000001, 1.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3f44c6a9-f15f-43a6-8520-c32233eb53c7" absoluteBounds="3.25, 0.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/TRPODataContext/resistor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e4d20d7b-5efd-4d3e-bd0d-e22dc3de72dc" absoluteBounds="3.2649999999999997, 1.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ad6d8c62-f781-4e33-85ac-79f9bca8c7a9" absoluteBounds="1.125, 2.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/TRPODataContext/coil" />
+      <nestedChildShapes>
+        <elementListCompartment Id="febda981-5e82-4776-9a90-bf8cc6aad79b" absoluteBounds="1.1399999999999997, 3.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f62badd9-4cf1-4e1c-9626-2f911895b092" absoluteBounds="3.25, 2.875, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/TRPODataContext/element" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6c9f5c3c-7f2b-49f1-9d74-e11a1ea5d0f9" absoluteBounds="3.2649999999999997, 3.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="26a85d03-9e96-482c-bf5c-863f27f8771f" absoluteBounds="5.375, 0.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/TRPODataContext/scheme1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="abdbd29d-cf2d-41b8-b8c1-051282bad1f2" absoluteBounds="5.3900000000000006, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b836c911-aa73-455a-9797-6978b454c4cd" absoluteBounds="5.375, 3.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/TRPODataContext/scheme3" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c9e6581f-ba73-43fe-8de8-2e1450a83180" absoluteBounds="5.3900000000000006, 4.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fb112ecb-727b-4497-b2ac-9a1a57494d9e" absoluteBounds="5.375, 2.25, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/TRPODataContext/scheme2" />
+      <nestedChildShapes>
+        <elementListCompartment Id="84ca9501-489a-43d0-9d0d-c64a364b59c7" absoluteBounds="5.3900000000000006, 2.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,9 @@
+﻿create table capasitors (
+id int not null primary key,
+name nvarchar(255) not null,
+resistance float,
+max_freq float,
+max_temp float,
+price money
+)
+   

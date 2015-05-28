@@ -1,0 +1,5 @@
+﻿create table scheme1 (
+id int not null primary key,
+id_elem int not null,
+count int not null
+)
